@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "id": "c1",
+            "type": "ColumnNode",
+            "hNodeId": "c1",
+            "columnName": "column1",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": [
+                {
+                    "domain": "http://www.americanartcollaborative.org/ontology/Person",
+                    "type": "http://rdvocab.info/ElementsGr2/nameOfThePerson",
+                    "origin": "TfIdfModel",
+                    "confidenceScore": 1.0
+                }
+            ]
+        },
+        {
+            "id": "c2",
+            "type": "ColumnNode",
+            "hNodeId": "c3",
+            "columnName": "column2",
+            "userSemanticTypes": [],
+            "learnedSemanticTypes": [
+                {
+                    "domain": "http://www.americanartcollaborative.org/ontology/Person",
+                    "type": "http://rdvocab.info/ElementsGr2/nameOfThePerson",
+                    "origin": "TfIdfModel",
+                    "confidenceScore": 0.5567408079891057
+                },
+                {
+                    "domain": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject",
+                    "type": "http://purl.org/dc/terms/title",
+                    "origin": "TfIdfModel",
+                    "confidenceScore": 0.44325919201089425
+                }
+            ]
+        },
+        {
+            "id": "c3",
+            "type": "ColumnNode",
+            "hNodeId": "c3",
+            "columnName": "column3",
+            "userSemanticTypes": [
+                {
+                    "domain": "http://www.europeana.eu/schemas/edm/WebResource",
+                    "type": "http://isi.edu/integration/karma/dev#classLink",
+                    "origin": "User",
+                    "confidenceScore": 0.75
+                }
+            ],
+            "learnedSemanticTypes": null
+        }
+    ]
+}
