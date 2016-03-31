@@ -2,3 +2,9 @@
     "sourceuri": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject",
     "targeturi": "http://www.americanartcollaborative.org/ontology/Person"
 }
+
+OR
+
+{
+    "sourceuri": "http://www.americanartcollaborative.org/ontology/CulturalHeritageObject",
+}
