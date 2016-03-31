@@ -43,6 +43,7 @@ public class ModelingApplication extends Application {
     public ModelingApplication() {
         super();
 
+        // config for swagger
         BeanConfig beanConfig = new BeanConfig();
         beanConfig.setVersion("1.0.0");
         beanConfig.setSchemes(new String[]{"http"});
